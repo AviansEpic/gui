@@ -43,4 +43,8 @@ local function NWKJBQ_fake_script() -- TextLabel.LocalScript
 	end
 	
 end
+
+wait(10)
+
+ScreenGui:Destroy()
 coroutine.wrap(NWKJBQ_fake_script)()
